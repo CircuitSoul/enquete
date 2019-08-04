@@ -16,6 +16,6 @@ for i in range(100):
       print('Sucess!')
       cont_request += 1
       print('Numero de requests %i ' % cont_request)
-      os.system('systemctl restart tor')
+      os.system('systemctl restart tor') #archlinux restart tor service
       print('Reiniciando o tor')
       time.sleep(10)
